@@ -8,6 +8,7 @@ public with sharing class GetCasesAssignedTo {
             WITH USER_MODE
             ORDER BY CreatedDate ASC 
             LIMIT 100
+            //will be deleted
         ];
     }
 }
